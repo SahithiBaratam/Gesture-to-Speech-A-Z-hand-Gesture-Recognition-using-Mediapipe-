@@ -12,26 +12,6 @@ The system is lightweight, accurate, and runs completely offline.
 ✔ Works on any background and lighting conditions
 ✔ Easy to train with your own gesture samples
 
-📌 Project Structure
-Gesture_Mediapipe/
-│
-├── data/
-│     └── mp_landmarks.csv             # Auto-generated gesture dataset
-│
-├── models/
-│     ├── mp_model.pkl                 # Trained RandomForest model
-│     └── mp_label_encoder.pkl         # Label encoder for A–Z
-│
-├── src/
-│     ├── collect_mediapipe_data.py    # Collect hand gesture samples
-│     ├── train_mediapipe_model.py     # Train the ML model
-│     ├── live_mediapipe_app.py        # Main real-time recognition app
-│     ├── sentence_builder.py          # Handles sentence construction
-│     ├── tts_engine.py                # Text-to-Speech engine (multiple speak fix)
-│
-├── venv/                               # Virtual environment (not uploaded)
-│
-└── README.md
 
 🛠 Installation
 1️⃣ Clone the repository
